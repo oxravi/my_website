@@ -1,0 +1,241 @@
+@media (max-width: 1200px){
+.container {
+    max-width: 1024px;
+}
+.nav-bar {
+    width: 55%;
+}
+.footer-right {
+    width: 35%;
+}
+.education-row-3 {
+    margin-top: 1%;
+}
+}
+@media (max-width: 1085px){
+.container {
+    max-width: 900px;
+}
+.nav-bar {
+    width: 62%;
+}
+.footer-right {
+width: 39%;
+}
+.col-1{
+    margin-left: 14%;
+}
+.col-3{
+    margin-left: 30%;
+}
+.education-row-3 {
+    margin-top: -1%;
+}
+#mywork ul li{
+    margin: 0px 18px 30px 8px;
+}
+}
+@media (max-width: 992px){
+    .container {
+        max-width: 830px;
+    }
+    .logo {
+        width: 21%;
+    }
+    .nav-bar {
+        width: 67%;
+    }
+    .footer-left{
+        width: 21%;
+    }
+    .footer-right {
+        width: 43%;
+    }
+    .col-1{
+        margin-left: 5%;
+    }
+    #mywork ul li {
+        width: 45%;
+    }
+    }
+
+@media (max-width: 840px){
+        .container {
+            max-width: 720px;
+        }
+        .wrap{
+            flex-wrap: wrap;
+        }
+        .logo {
+            width: 100%;
+        }
+        .nav-bar {
+            width: 100%;
+            display: block;
+            visibility: hidden;
+            height: 0px;
+        }
+        .fa-bars{
+            visibility: visible;
+        }
+        .fa-times{
+            visibility: hidden;
+        }
+        .nav-bar li{
+            display: block;
+            border-bottom:1px solid #f2f2f2;
+        }
+        .nav-bar li a{
+            text-align: center;
+        }
+        .footer-left{
+            width: 100%;
+            text-align: center;
+        }
+        .footer-left h2{
+            line-height: 0px;
+            padding-top: 25px;
+            display: block;
+        }
+        .footer-right {
+            width: 100%;
+            text-align: center;
+        }
+        .footer-right span{
+            line-height: 0px;
+        }
+        .social a{
+            border-radius: 50%;
+            height: 60px;
+            width: 60px;
+            display: block;
+            text-align: center;
+            line-height: 58px;
+            font-size: 30px;
+            margin: 0px 10px;
+            border: 3px solid #000;
+        }
+        .about-left{
+            width: 100%;
+        }
+        .about-right{
+            width: 100%;
+        }
+        .about-right img{
+            width: 40%;
+            margin-left: 32%;
+        }
+        .skills-left{
+            width: 100%;
+            margin-right: 0px;
+        }
+        .skills-right{
+            width: 100%;
+            margin-left: 0px;
+        }
+        .contact-left{
+            width: 100%;
+        }
+        .contact-right{
+            width: 100%;
+            margin-top: 50px;
+        }
+        .education-row {
+            width: 100%;
+            margin-bottom: 20px;
+        }
+        .education-row-2 {
+            width: 100%;
+            margin-bottom: 28px;
+        }
+        .education-row-3 {
+            width: 100%;
+        }
+        .col-1{
+            position: relative;
+           top: 50%;
+           left: 50%;
+           transform: translate(-50%,-50%);
+            margin-left: 0%;
+        }
+        .col-2{
+            position: relative;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+        }
+        .col-3{
+            position: relative;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+            margin-left: 0%;
+        }
+ @media (max-width: 700px){
+.container {
+max-width: 576px;
+}
+ }
+@media (max-width: 576px){
+.container {
+    max-width: 500px;
+}
+#mywork ul li {
+    width: 100%;
+}
+.header-desc {
+    width: 360px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+footer{
+    height: 100px;
+}
+.footer-right{
+    line-height: 0px;
+}
+.footer-right span{
+    display: block;
+    margin-top: 22px;
+}
+.about-right img{
+    width: 65%;
+    margin-left: 22%;
+}
+}
+@media (max-width: 500px){
+    .container {
+        max-width: 360px;
+    }
+    .header-desc {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+    }
+    .education-col {
+        width: 350px;
+        height: 350px;
+    }
+    .education-col h1 {
+        padding-top: 25%;
+        font-size: 26px;
+    }
+}
+@media (max-width: 380px){
+    .container {
+        max-width: 320px;
+    }
+    .header-desc {
+        width: 330px;
+    }
+    .social a {
+        height: 50px;
+        width: 50px;
+        line-height: 49px;
+        font-size: 24px;
+    }
+}
+}
